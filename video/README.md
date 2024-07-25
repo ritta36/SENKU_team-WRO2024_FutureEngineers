@@ -1,4 +1,4 @@
 Video
 ====
 
-This directory contain the video.md file with a URL to YouTube showing the vehicle driving autonomously.
+<p>This directory contain two videos.<code>Open Challenge</code> video and <code>Obstacle Challenge</code> video</p>
