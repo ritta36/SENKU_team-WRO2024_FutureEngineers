@@ -3,7 +3,6 @@
 
 <img src="other/Repository-pictures/R.png" alt="WRO">
 
-
 <p> We have solved the WRO2024 Future Engineers problem, and this repository details the development and design process of an autonomous vehicle created for participation in the WRO 2024 Future Engineers Category. The car represents a fusion of theoretical, mathematical, and mechanical engineering principles, combined with complex programming tasks and computer vision techniques. The repository provides a detailed explanation of the solution presented by the SENKU team. It includes all the steps we have undertaken in detail, along with the written codes, mechanical and electronic components used, and a comprehensive and detailed explanation of the algorithm. Additionally, it covers all the essential technical and mathematical fundamentals necessary to create the SENKU Robot vehicle and solve the problem, with the aim of providing a comprehensive information source for everyone.<p>
 
 <p>Using this repository, a self-driving car can be built that is capable of completing three laps within the boundaries of the track, overcoming the obstacles present, and finally parking in a designated spot.<p>
@@ -32,38 +31,34 @@ This repository will explain the following:
 
 
 <dl>
-  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#introduction">Introduction</a></dt>
-  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#mobility-management">Mobility Management</a></dt>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#1-vehiclemainbody">-Vehicle Main Body</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#2-motion-mechanism">-MOTIONMECHANISM</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#-2-motor-driver">-MOTORDRIVER</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#3--wheels">-Wheels</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#4--lego-axles">-LegoAxles</a></dd>
-  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#power-and-sense-management">Power and Sense Management</a></dt>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#1-electrical-parts">-Electrical Parts</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#-2-overall-circuit-current-usage">-Overall Circuit Current Usage</a></dd>
-<dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#3-circuit-grounding">-Circuit Grounding/a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#4-power-supply">-Power Supply</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#overall-scheme">-Overall Scheme</a></dd>
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#introduction">Introduction</a></dt>
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#mobility-management">Mobility Management</a></dt>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#1-vehiclemainbody">-Vehicle Main Body</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#2-motion-mechanism">-MOTION MECHANISM</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#3-engineering-principles">--Engineering-principles</a></dd>
 
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/blob/main?tab=readme-ov-file#power-and-sense-management">Power and Sense Management</a></dt>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/blob/main?tab=readme-ov-file#1-electrical-parts">-Electrical Parts</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/blob/main?tab=readme-ov-file#-2-overall-circuit-current-usage">-Overall Circuit Current Usage</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/blob/main?tab=readme-ov-file#3-circuit-grounding">-Circuit Grounding</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/blob/main?tab=readme-ov-file#4-power-supply">-Power Supply</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#overall-scheme">-Overall Scheme</a></dd>
   
-  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#obstacle-management">Obstacle Management</a></dt> 
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#1-open-challenge-algorithm">-Open Challenge Algorithm</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#2-computer-vision">-Computer Vision</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#3-image-processing">-Image Processing</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#4-problems-we-encountered">-Problems We Encountered</a></dd>
-      <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#-suggestions-and-future-modifications">Suggestions and future modifications
-</a></dt>
-<dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#1-open-challenge">-Open Challenge</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#2-obstacle-challenge">-Obstacle Challenge</a></dd>
-        <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#3-differential">-Differential/a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#4-micro-controller-upgrade">-Micro-controller Upgrade</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#5--sensor-upgrades">- Sensor Upgrades</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#6-power-management-system-pms">-Power Management System (PMS)</a>
-    </dd>
-    <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#conclusion">-Micro-controller Upgrade</a>Conclusion.</dt>
-
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#obstacle-management">Obstacle Management</a></dt>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#1-open-challenge-algorithm">-Open Challenge Algorithm</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#2-computer-vision">-Computer Vision</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#3-image-processing">-Image Processing</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#4-problems-we-encountered">-Problems We Encountered</a></dd>
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#-suggestions-and-future-modifications">Suggestions and Future Modifications</a></dt>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#1-open-challenge">-Open Challenge</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#2-obstacle-challenge">-Obstacle Challenge</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#3-differential">-Differential</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#4-micro-controller-upgrade">-Micro-controller Upgrade</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#5--sensor-upgrades">-Sensor Upgrades</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#6-power-management-system-pms">-Power Management System (PMS)</a></dd>
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#conclusion">Conclusion</a></dt>
 </dl>
+
 
   
 <h2>Mobility Management</h2>
@@ -78,7 +73,20 @@ The main microcontroller is an Atmega mounted on an Arduino Mega 2560 board. To 
 <p>The servo motor model was selected for controlling the vehicle’s steering, while the BTS7960 motor driver is utilized to control the movement of the DC motor, providing the necessary power to drive the vehicle’s motion.</p>
 
 
-  <h3>2-Motion Mechanism.</h3>
+<h4>2-3D Printing parts</h4>
+<p>We utilized SOLIDWORKS to design the components, followed by 3D printing these designs using PLA material. This process enabled us to create precise and customized parts for our robot, ensuring optimal performance and adherence to our design specifications. you can reach the #D files in <a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main/models">this link.</a></p>
+
+<b>Hexagonal Rod</b>
+<p>The hexagonal rod is a key component, used for providing structural support in the assembly. It features a hollow center which allows for integration with other parts.</p>
+
+<b>• Camera Holder</b>
+<p>The camera holder is designed to securely hold the camera in place, ensuring stability and precision in positioning. It includes both parts of the holder and the complete assembly.</p>
+<b>•  Ultrasonic Sensor Holder Base</b>
+<p>The ultrasonic sensor holder base is used to mount the ultrasonic sensor, providing a stable platform for accurate distance measurements.</p>
+<b>•  JSumo Tan Technic Gear 20 Tooth Double Bevel</b>
+<p>This gear is a crucial component in the assembly, providing the necessary transmission of motion through its double bevel design.</p>
+</li>
+  <h3>3-Motion Mechanism.</h3>
   <p>We implemented Ackermann steering by installing a servo motor that allows the steering mechanism to operate freely. Additionally, a DC motor with a 500 rpm output acts as the propulsion motor. The kinetic energy produced by the DC motor is conveyed to the rear wheels through a differential gearbox, and this energy is transmitted to the wheels via drive shafts constructed from LEGO components. Now we will explain both of the <b>Ackermann steering</b> and the <b>Differential gear:</b></p>
   <h4>1-Ackerman Steering Mechanism</h4>
   <p>Our design features an Ackermann steering mechanism, essential for providing efficient and responsive steering performance. The Ackermann steering principle is instrumental in minimizing tire wear and enhancing the vehicle's handling, especially during turns.</p>
@@ -171,7 +179,7 @@ The main microcontroller is an Atmega mounted on an Arduino Mega 2560 board. To 
 
 <p>Implementing these modifications will significantly improve the vehicle's performance, making it more reliable and efficient in navigating the challenges of the competition.</p>
 
-<h3> 2-Motor Driver</h3>
+<h4> 3-Motor Driver</h4>
 <p>A motor driver is an indispensable device in controlling motors because it allows the safe handling and delivery
 of required power for driving the motor; at the same time, it includes protection features to guard against
 damage under abnormal operating conditions. In addition, the motor driver provides accurate control, speed,
@@ -188,7 +196,7 @@ for more efficiency</p>
 <br> 
 
 
-<h3>3- Wheels</h3>
+<h4>4- Wheels</h4>
 <p>Wheels were used in the robot's design, their advantage comes from their efficiency and light weight. These wheels provide good friction, which enhances stability and maneuverability on various surfaces. [26]</p>
 <img src="other/Repository-pictures/Car's parts/wheel.jpg" alt="Rubber Wheel" style="width:200px;">
 <caption><strong>Figure 23:</strong> Wheel</caption>
@@ -229,12 +237,19 @@ for more efficiency</p>
 </table>
 
 
-<h3>4- Lego Axles</h3>
+<h4>5- Lego Axles</h4>
 <p>Using the LEGO axles (4.8mm Diameter) on both the differential gears mechanism and the wheels connecting leads to a significant improvement in the robot's efficiency. The axles deliver accurate rotary motion while cutting down friction and energy losses. It is made of PA (Polyamide), which is a type of material that can withhold high loads and impacts. This means it is suitable for elements that have to be tough and can interact with each other, thus enabling a smooth power transmission of prolonged operation.</p>
 <img src="other/Repository-pictures/Car's parts/Lego A.png" alt="Lego Axle" style="width:200px;">
 <caption><strong>Figure 24:</strong> Lego Axle</caption>
 
-
+<h3>3-Engineering Principles</h3>
+  <p>The selection of materials and components for our vehicle was guided by several key engineering principles:</p>
+  <ul>
+    <li><strong>Torque and Speed Calculations:</strong> The motors were chosen based on the required torque to overcome friction and inertia, ensuring sufficient speed for the competition.</li>
+    <li><strong>Material Selection:</strong> Aluminum was selected for its strength-to-weight ratio, providing a lightweight yet durable structure.</li>
+    <li><strong>3D Printing Selection:</strong> PLA is easy of Printing, Strength and aligns with sustainable engineering practices, making it an eco-friendly choice.</li>
+    
+  </ul>
 <h2>Power and Sense Management</h2>
 
  <h3>1-Electrical Parts</h3>
