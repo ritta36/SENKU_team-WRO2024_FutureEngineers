@@ -1,15 +1,18 @@
 <h2>Contents</h2>
 
 <dl>
-  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/new/main/other#software-setup">Software Setup</a></dt>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/new/main/other#1--setting-up-and-configuring-for-raspberry-pi">-Setting Up and Configuring for Raspberry Pi</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/new/main/other#configuring-remote-access-for-raspberry-pi">-Configuring Remote Access for Raspberry Pi</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/new/main/other#3--activating-the-raspberry-pi-camera">- Activating the Raspberry Pi Camera</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/new/main/other#-6--downloading-the-pyserial-library">- Downloading OpenCV library on Raspberry Pi.</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/new/main/other#5--downloading-opencv-library-on-raspberry-pi">- Downloading the PySerial Library.</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/new/main/other#7--downloading-picamera2-library">- Downloading Picamera2 library</a></dd>
+  <dt>Software Setup</dt>
+  <dd>-Setting Up and Configuring for Raspberry Pi.</dd>
+  <dd>-Configuring Remote Access for Raspberry Pi.</dd>
+  <dd>- Activating the Raspberry Pi Camera.</dd>
+  <dd>- Downloading OpenCV library on Raspberry Pi.</dd>
+  <dd>- Downloading the PySerial Library.</dd>
+  <dd>- Downloading Picamera2 library.</dd>
   <h2>Software Setup</h2> 
 
+
+<br>
+<br>
 
 <p>For effective applying to our self-driving car project, it's essential to configure software and install specific applications.We will be using Raspberry Pi for image processing, therefore, we will need to set up the <b>Raspberry Pi</b> device as well as enable and establish a remote connection for the Raspberry Pi.We will also need to activate the camera and download the applications that provide the necessary work environment for the accompanying codes. For this purpose, we will require the following applications:<p>
 
