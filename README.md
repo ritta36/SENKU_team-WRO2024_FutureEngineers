@@ -12,6 +12,7 @@
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
 * `video` contains two .md files with links to Youtube videos for each open challenge and obstacle challenge.
+* * `Engineering Journal` It includes a PDF file for documentation that contains a complete explanation of the solution, including descriptions of the components used, the algorithm, and more..
 * `schemes` contains several schematic diagrams for electromechanical components used in the vehicle هn addition to the complete circuit schematic, it illustrates the components and how they connect to each other.
 * `src` This directorycontain the codes used during the competition, as well as all other necessary codes for testing sensors, motors, and calibration.
 * `models` is for the files for models used by 3D printers to produce the vehicle elements.
@@ -81,11 +82,12 @@ The main microcontroller is an Atmega mounted on an Arduino Mega 2560 board. To 
 
 <b>• Camera Holder</b>
 <p>The camera holder is designed to securely hold the camera in place, ensuring stability and precision in positioning. It includes both parts of the holder and the complete assembly.</p>
-<b>•  Ultrasonic Sensor Holder Base</b>
+<b>• Ultrasonic Sensor Holder Base</b>
 <p>The ultrasonic sensor holder base is used to mount the ultrasonic sensor, providing a stable platform for accurate distance measurements.</p>
-<b>•  JSumo Tan Technic Gear 20 Tooth Double Bevel</b>
+<b>• JSumo Tan Technic Gear 20 Tooth Double Bevel</b>
 <p>This gear is a crucial component in the assembly, providing the necessary transmission of motion through its double bevel design.</p>
 </li>
+<b>• Battery Holder</b> The battery holder is designed to securely hold the battery in place, providing necessary power to the assembly. It is robustly built to ensure stability and easy replacement of batteries when needed.<br>
   <h3>3-Motion Mechanism.</h3>
   <p>We implemented Ackermann steering by installing a servo motor that allows the steering mechanism to operate freely. Additionally, a DC Jsumo motor with a 1000 rpm output acts as the propulsion motor. The kinetic energy produced by the Jsumo is conveyed to the rear wheels through a differential gearbox, and this energy is transmitted to the wheels via drive shafts constructed from LEGO components. Now we will explain both of the <b>Ackermann steering</b> and the <b>Differential gear:</b></p>
   <h4>1-Ackerman Steering Mechanism</h4>
