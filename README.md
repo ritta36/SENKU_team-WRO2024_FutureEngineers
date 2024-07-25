@@ -11,12 +11,11 @@
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions, photos, flowcharts etc.
-
+* `video` contains two .md files with links to Youtube videos for each open challenge and obstacle challenge.
+* `schemes` contains several schematic diagrams for electromechanical components used in the vehicle هn addition to the complete circuit schematic, it illustrates the components and how they connect to each other.
+* `src` This directorycontain the codes used during the competition, as well as all other necessary codes for testing sensors, motors, and calibration.
+* `models` is for the files for models used by 3D printers to produce the vehicle elements.
+* `other` Here, we have included all the auxiliary folders that contain: flowcharts used for a clearer explanation of the followed algorithms, a pictures folder containing the images used in the repository, and finally, a <a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#introduction">Software Setup.md</a> file that provides a comprehensive and sufficient explanation of how to set up the software, install necessary applications, download libraries, and more.
 <h1>Introduction</h1>
 
 
@@ -34,8 +33,8 @@ This repository will explain the following:
   <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#introduction">Introduction</a></dt>
   <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#mobility-management">Mobility Management</a></dt>
   <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#1-vehiclemainbody">-Vehicle Main Body</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#2-motion-mechanism">-MOTION MECHANISM</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#3-engineering-principles">--Engineering-principles</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#2-motion-mechanism">-Motion Mechanism</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#3-engineering-principles">-Engineering Principles</a></dd>
 
   <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/blob/main?tab=readme-ov-file#power-and-sense-management">Power and Sense Management</a></dt>
   <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/blob/main?tab=readme-ov-file#1-electrical-parts">-Electrical Parts</a></dd>
@@ -68,13 +67,13 @@ This repository will explain the following:
 The second part of the structure is a chassis that features rear-wheel drive combined with a front steering mechanism, enabling it to turn both left and right. Also, it is made from aluminum which is a good material due to its lightness and durability.
 The main microcontroller is an Atmega mounted on an Arduino Mega 2560 board. To ensure accurate and efficient control and direction of the vehicle’s movement, we employed several crucial components which are :
 <br> • ServoMotorModel
-<br> • DCMotor500RPM
+<br> •  DC JSumo Motor 1000 RPM
 <br> • BTSMotorDriver</p>
 <p>The servo motor model was selected for controlling the vehicle’s steering, while the BTS7960 motor driver is utilized to control the movement of the DC motor, providing the necessary power to drive the vehicle’s motion.</p>
 
 
 <h4>2-3D Printing parts</h4>
-<p>We utilized SOLIDWORKS to design the components, followed by 3D printing these designs using PLA material. This process enabled us to create precise and customized parts for our robot, ensuring optimal performance and adherence to our design specifications. you can reach the #D files in <a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main/models">this link.</a></p>
+<p>We utilized SOLIDWORKS to design the components, followed by 3D printing these designs using PLA material. This process enabled us to create precise and customized parts for our robot, ensuring optimal performance and adherence to our design specifications. you can reach the 3D files in <a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main/models">this link.</a></p>
 
 <b>Hexagonal Rod</b>
 <p>The hexagonal rod is a key component, used for providing structural support in the assembly. It features a hollow center which allows for integration with other parts.</p>
@@ -87,7 +86,7 @@ The main microcontroller is an Atmega mounted on an Arduino Mega 2560 board. To 
 <p>This gear is a crucial component in the assembly, providing the necessary transmission of motion through its double bevel design.</p>
 </li>
   <h3>3-Motion Mechanism.</h3>
-  <p>We implemented Ackermann steering by installing a servo motor that allows the steering mechanism to operate freely. Additionally, a DC motor with a 500 rpm output acts as the propulsion motor. The kinetic energy produced by the DC motor is conveyed to the rear wheels through a differential gearbox, and this energy is transmitted to the wheels via drive shafts constructed from LEGO components. Now we will explain both of the <b>Ackermann steering</b> and the <b>Differential gear:</b></p>
+  <p>We implemented Ackermann steering by installing a servo motor that allows the steering mechanism to operate freely. Additionally, a DC Jsumo motor with a 1000 rpm output acts as the propulsion motor. The kinetic energy produced by the Jsumo is conveyed to the rear wheels through a differential gearbox, and this energy is transmitted to the wheels via drive shafts constructed from LEGO components. Now we will explain both of the <b>Ackermann steering</b> and the <b>Differential gear:</b></p>
   <h4>1-Ackerman Steering Mechanism</h4>
   <p>Our design features an Ackermann steering mechanism, essential for providing efficient and responsive steering performance. The Ackermann steering principle is instrumental in minimizing tire wear and enhancing the vehicle's handling, especially during turns.</p>
    <p>The key features and benefits of the Ackermann steering is that it enhances maneuverability by reducing tire slippage during turns. This is achieved by configuring the steering linkages to allow the inner wheel to turn at a sharper angle than the outer wheel. Each wheel follows its own natural arc around the corner, leading to more precise steering and better vehicle control. Additionally, the Ackermann steering mechanism streamlines the overall design of the steering system. It eliminates the need for complex gear arrangements, which reduces weight and potential failure points within the system. This simpler design also leads to easier maintenance and lower manufacturing costs.</p>
@@ -386,12 +385,12 @@ for more efficiency</p>
  
 <br>
 <br>
-<img src="circuit/wiring.png" alt="wiring managment">
+<img src="schemes/Circuit/wiring.png" alt="wiring managment">
 <caption><strong>Figure 25:</strong> The Circuit Wiring.</caption>
 <br>
 <br>
 <br> 
-<img src="circuit/wiring schem.png" alt="wiring schem ">
+<img src="schemes/Circuit/wiring schem.png" alt="wiring schem ">
 <br>
 <caption><strong>Figure 26:</strong> The Circuit Wiring Diagram.</caption>
 <br>
