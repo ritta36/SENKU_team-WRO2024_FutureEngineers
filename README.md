@@ -32,36 +32,36 @@ This repository will explain the following:
 
 
 <dl>
-  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#introduction">Introduction</a></dt>
-  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#mobility-management">Mobility Management</a></dt>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#1-vehiclemainbody">-Vehicle Main Body</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#2-motion-mechanism">-MOTIONMECHANISM</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#-2-motor-driver">-MOTORDRIVER</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#3--wheels">-Wheels</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#4--lego-axles">-LegoAxles</a></dd>
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#introduction">Introduction</a></dt>
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#mobility-management">Mobility Management</a></dt>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#1-vehiclemainbody">-Vehicle Main Body</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#2-motion-mechanism">-MOTIONMECHANISM</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#-2-motor-driver">-MOTORDRIVER</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#3--wheels">-Wheels</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#4--lego-axles">-LegoAxles</a></dd>
   <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#power-and-sense-management">Power and Sense Management</a></dt>
   <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#1-electrical-parts">-Electrical Parts</a></dd>
   <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#-2-overall-circuit-current-usage">-Overall Circuit Current Usage</a></dd>
 <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#3-circuit-grounding">-Circuit Grounding/a></dd>
   <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/tree/main?tab=readme-ov-file#4-power-supply">-Power Supply</a></dd>
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#overall-scheme">-Overall Scheme</a></dd>
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#overall-scheme">-Overall Scheme</a></dd>
 
   
-  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#obstacle-management">Obstacle Management</a></dt> 
-  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#1-open-challenge-algorithm">-Open Challenge Algorithm</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#2-computer-vision">-Computer Vision</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#3-image-processing">-Image Processing</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#4-problems-we-encountered">-Problems We Encountered</a></dd>
-      <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#-suggestions-and-future-modifications">Suggestions and future modifications
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#obstacle-management">Obstacle Management</a></dt> 
+  <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#1-open-challenge-algorithm">-Open Challenge Algorithm</a></dd>
+    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#2-computer-vision">-Computer Vision</a></dd>
+    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#3-image-processing">-Image Processing</a></dd>
+    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#4-problems-we-encountered">-Problems We Encountered</a></dd>
+      <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#-suggestions-and-future-modifications">Suggestions and future modifications
 </a></dt>
-<dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#1-open-challenge">-Open Challenge</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#2-obstacle-challenge">-Obstacle Challenge</a></dd>
-        <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#3-differential">-Differential/a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#4-micro-controller-upgrade">-Micro-controller Upgrade</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#5--sensor-upgrades">- Sensor Upgrades</a></dd>
-    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/edit/main/README.md#6-power-management-system-pms">-Power Management System (PMS)</a></dd>
-
-
+<dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#1-open-challenge">-Open Challenge</a></dd>
+    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#2-obstacle-challenge">-Obstacle Challenge</a></dd>
+        <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#3-differential">-Differential/a></dd>
+    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#4-micro-controller-upgrade">-Micro-controller Upgrade</a></dd>
+    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#5--sensor-upgrades">- Sensor Upgrades</a></dd>
+    <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#6-power-management-system-pms">-Power Management System (PMS)</a>
+    </dd>
+    <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/main/README.md#conclusion">-Micro-controller Upgrade</a>Conclusion.</dt>
 
 </dl>
 
@@ -70,7 +70,7 @@ This repository will explain the following:
 
 <h3>1-VEHICLEMAINBODY</h3>
 <p>The main body of the vehicle was divided into two sections. The 3D printing section comprises four parts: the upper structure, two parts forming a camera holder, and the last part serving as a battery holder.<br> 
-The second part of the structure we bought a chassis that features rear-wheel drive combined with a front steering mechanism, enabling it to turn both left and right. Also, it is made from aluminum which is a good material due to its lightness and durability. We chose this option for its high manufacturing quality, which reduces errors compared to other options. You can check out this product at <a href="https://www.aliexpress.us/item/32830665408.html?src=google&src=google&albch=shopping&acnt=272-267-0231&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=nl32830665408&ds_e_product_merchant_id=100968557&ds_e_product_country=NL&ds_e_product_language=nl&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=20701318733&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gclid=CjwKCAjwz42xBhB9EiwA48pT7_O0L88p8K8QJJ9H_MtYX4V0jmpi88l6xULXc8O-d0dar3moLedy9hoC-ocQAvD_BwE&aff_fcid=184a5de6b7404d4f934b2286e6574595-1713632204100-08045-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=184a5de6b7404d4f934b2286e6574595-1713632204100-08045-UneMJZVf&terminal_id=6d2b718e036c410eaa8d95d7290854cd&afSmartRedirect=y&gatewayAdapt=4itemAdapt">Chassis.</a></dd>
+The second part of the structure is a chassis that features rear-wheel drive combined with a front steering mechanism, enabling it to turn both left and right. Also, it is made from aluminum which is a good material due to its lightness and durability.
 The main microcontroller is an Atmega mounted on an Arduino Mega 2560 board. To ensure accurate and efficient control and direction of the vehicle’s movement, we employed several crucial components which are :
 <br> • ServoMotorModel
 <br> • DCMotor500RPM
@@ -410,7 +410,7 @@ for more efficiency</p>
 
 <p>Overall, this algorithm ensures the robot navigates efficiently through the track, handling turns and zones with precise control to achieve the fastest lap times possible.</p>
 
-<img src="other/Flow_Charts/pictures/Open challenge.png" alt="wiring schem ">
+
 <figcaption>Figure 28: Open challenge flowchart
 </figcaption>
 </figure>
@@ -418,7 +418,8 @@ for more efficiency</p>
 <hr>
 
   <h3>2-Computer Vision</h3>
-    <p>Computer vision is a fundamental technology in robotics and automation, crucial for enabling self-driving cars to perceive and interpret their surroundings. In our project, computer vision (CV) techniques empower the robotic system to gather essential information, facilitating informed decision-making and immediate actions. The identification of red and green pillars is critical for collision avoidance and maintaining a clear path for the robot.</p>
+    <p>Computer vision is a fundamental technology in robotics and automation, crucial for enabling self-driving cars to perceive and interpret their surroundings. In our project, computer vision (CV) techniques empower the robotic system to gather essential information, facilitating informed decision-making and immediate actions. The identification of the pink
+ parking, red and green pillars is critical for collision avoidance and maintaining a clear path for the robot.</p>
     
    <p>We employ the HSV (Hue, Saturation, Value) color space for color detection due to its robustness under varying lighting conditions. Unlike other color spaces such as RGB (Red, Green, Blue) or HSL (Hue, Saturation, Lightness), HSV separates color information (hue) from luminance, enhancing its reliability.</p>
     
@@ -475,12 +476,34 @@ for more efficiency</p>
     </ul>
     <p>Note: HSV values may vary under different lighting conditions.</p>
 
+
+
+| Original Frame | Mask | Result |
+|----------------|------|--------|
+| ![Original Frame Red 1](other/Repository-pictures/The%20algorithm/original.png) | ![Mask Red 1](other/Repository-pictures/The%20algorithm/red%20and%20orange%20mask.png) | ![Result Red 1](other/Repository-pictures/The%20algorithm/red%20and%20orange.png) |
+| **Original Frame** | **Mask** | **Result** |
+| **Figure 31: Red 1 Mask Analysis** |
+
+| Original Frame | Mask | Result |
+|----------------|------|--------|
+| ![Original Frame Red 2](other/Repository-pictures/The%20algorithm/original.png) | ![Mask Red 1](other/Repository-pictures/The%20algorithm/orange%20mask.png) | ![Result Red 1](other/Repository-pictures/The%20algorithm/orange.png) |
+| **Original Frame** | **Mask** | **Result** |
+| **Figure 32: Red 2 Mask Analysis** |
+
+| Original Frame | Mask | Result |
+|----------------|------|--------|
+| ![Original Frame Green](other/Repository-pictures/The%20algorithm/original.png) | ![Mask Red 2](other/Repository-pictures/The%20algorithm/green%20mask.png) | ![Result Red 2](other/Repository-pictures/The%20algorithm/green.png) |
+| **Original Frame** | **Mask** | **Result** |
+| **Figure 33: Green Mask Analysis** |
+
+
+
+
   <h4>Contouring</h4>
     <p>Contour detection is the process of identifying the boundaries or edges of objects within an image. This process is fundamental to many image analysis applications, including image segmentation, object recognition, and classification.</p>
     <br>
-<img src="other/Flow_Charts/pictures/contuors.png" alt="...">
 <br>
-<figcaption>Figure 31: Contouring Process
+<figcaption>Figure 34: Contouring Process
 </figcaption>
 </figure>
 <br>
@@ -501,11 +524,13 @@ for more efficiency</p>
         </li>
         <li>Calculating Distance: The distance is calculated using a formula derived by plotting a curve between the actual distance and the contour area.</li>
     </ol>
+<img src="other/Repository-pictures/The algorithm/contouring.jpg" alt="Contouring Analysis" width="600">
+<strong>Figure 30: Contouring Analysis</strong>
 
   <h4>Our Algorithm to Avoid the Pillars</h4>
     <p>At the start of each section, the Raspberry Pi captures an image using the camera. It processes the image and applies a mask to detect any pillars in front of the vehicle. If a pillar is detected and the distance is less than 50 cm, the Raspberry Pi sends a signal to the Arduino ('G' for a green pillar, 'R' for a red pillar, and 'N' for no pillar). The Arduino then decides the course of action: turn left for 'G', turn right for 'R', or move forward for 'N'.</p>
 
-<img src="other/Repository-pictures/The algorithm/OB.jpg" alt="...">
+<img src="other/Repository-pictures/The algorithm/corner parking.jpg" alt="...">
 <br>
 <figcaption>Figure 32:  the vehicle parking in the corner
 </figcaption>
@@ -617,4 +642,6 @@ for more efficiency</p>
     Our current design employs basic power distribution using a Li-Poly battery and DC-DC converters; however, there are opportunities to improve battery management and power stability. To address these issues, we suggest upgrading to a Battery Management System (BMS). A BMS monitors individual cell voltages, temperatures, and overall battery health, which helps extend battery life and ensures safe operation. Additionally, it provides efficient power distribution to all components, maintaining stable voltage levels and preventing power fluctuations.
   </p>
 </section>
-
+<h2>Conclusion</h2>
+<p>In conclusion,the autonomous vehicle we made is designed to compete in the WRO 2024 Future Engineers Category. This car embodies a blend of theoretical and practical principles from mechanical and mathematical engineering, alongside intricate programming challenges and advanced computer vision techniques. We aim to contribute to the advancement of autonomous vehicles, recognizing their immense potential to transform global mobility and connectivity.
+  and also to provid a rich informational resource that encompasses all the necessary knowledge from mechanical components to the details of software and computing needed for operation, this is intended for those who lack a source to aid them in similar endeavors.</p>
