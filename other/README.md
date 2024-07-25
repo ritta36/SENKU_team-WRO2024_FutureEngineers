@@ -22,26 +22,26 @@
 <ol type="I">
   <li>Download the latest version from <a href="raspberrypi.com/software">Raspberry PiOS</a>  and run the installer. Once you’ve installed Imager, launch the application by clicking the Raspberry Pi Imager icon </li>
   <br>
-<img src="other/Repository-pictures/Raspberry PiOS/welcome.png" alt="The list of Raspberry Pi's models">
+<img src="Repository-pictures/Raspberry PiOS/welcome.png" alt="The list of Raspberry Pi's models">
   <br> 
     <figcaption>Figure 1: The list of Raspberry Pi's models</figcaption>
   </figure>
   <li>Select "Choose device" and pick your Raspberry Pi model from the dropdown list.(we are using Raspberry pi 4 in our Vehicle)</li>
   <br>
-      <img src="other/Repository-pictures/Raspberry PiOS/choose-model.png" alt="The list of Raspberry Pi's models">
+      <img src="Repository-pictures/Raspberry PiOS/choose-model.png" alt="The list of Raspberry Pi's models">
 <br> 
     <figcaption>Figure 2:Picking your Raspberry Pi model</figcaption>
   </figure>
    <li>Next, click Choose OS and select an operating system to install</li>
    <br>
-<img src="other/Repository-pictures/Raspberry PiOS/choose-os.png" alt="coosing the operating system">
+<img src="Repository-pictures/Raspberry PiOS/choose-os.png" alt="coosing the operating system">
 
 <br> 
     <figcaption>Figure 3: Selecting an operating system</figcaption>
   </figure>
    <li>Attach your chosen storage device to your computer. For instance, insert a microSD card via an external or integrated SD card reader. Subsequently, click on "Choose storage" and select the appropriate storage device.</li>
    <br>
-   <img src="other/Repository-pictures/Raspberry PiOS/choose-storage.png" alt="Choosing the preferred storage">
+   <img src="Repository-pictures/Raspberry PiOS/choose-storage.png" alt="Choosing the preferred storage">
 <br> 
     <figcaption>Figure 4:Choose storage</figcaption>
   </figure>
@@ -56,7 +56,7 @@ The wireless LAN setting enables you to specify the SSID (name) and password for
 <br>
 Lastly, the locale settings allow customization of the time zone and keyboard layout for your Raspberry Pi.</li>
 <br>
-<img src="other/Repository-pictures/Raspberry PiOS/os-customisation-general.png" alt="editing setting">
+<img src="Repository-pictures/Raspberry PiOS/os-customisation-general.png" alt="editing setting">
     <figcaption>Figure 5: OS customization options.</figcaption>
   </figure>
 
@@ -66,7 +66,7 @@ To manage your Raspberry Pi remotely via your network, ensure the Enable SSH box
 
 Select the password authentication method for SSH access to your Raspberry Pi using the username and password set in the general tab of the OS customization.</li>
 <br>
-<img src="other/Repository-pictures/Raspberry PiOS/os-customisation-services.png" alt=".....">
+<img src="Repository-pictures/Raspberry PiOS/os-customisation-services.png" alt=".....">
  <figcaption>Figure 6: Selecting the password authentication method</figcaption>
   </figure>
    <li>After you have completed entering the OS customization settings, click "Save" to preserve your configurations.</li>
@@ -80,7 +80,7 @@ Select the password authentication method for SSH access to your Raspberry Pi us
  
 
    <li>If an administrative prompt appears requesting permissions to read and write to your storage medium, grant the necessary permissions to Imager to continue.(you will have to wait, this takes a few minutes).</li>
-  <img src="other/Repository-pictures/Raspberry PiOS/writing.png" alt=".....">
+  <img src="Repository-pictures/Raspberry PiOS/writing.png" alt=".....">
    <br> 
     <figcaption>Figure 7: Writing page</figcaption>
   </figure>
@@ -106,36 +106,36 @@ Select the password authentication method for SSH access to your Raspberry Pi us
   <li>After downloading the software, extract it to a designated folder. The program will be ready for use once launched. Ensure that both the Raspberry Pi and your device are connected to the same network to view the interface properly.</li>
   <br>
   
-  <img src="other/Repository-pictures/Mobaxterm/mobaxterm-main-window.png" alt="moba main window">
+  <img src="Repository-pictures/Mobaxterm/mobaxterm-main-window.png" alt="moba main window">
    <br> 
     <figcaption>Figure 8:Moba main window</figcaption>
   </figure>
    <li>Select the "Session" tab. Afterward, you will need to modify the connection settings in the window that will appear next.</li>
    <br>
-   <img src="other/Repository-pictures/Mobaxterm/session-button.png" alt="starting a sission">
+   <img src="Repository-pictures/Mobaxterm/session-button.png" alt="starting a sission">
     <br> 
     <figcaption>Figure 9: Starting a sission</figcaption>
   </figure>
    <li> Click on the SSH icon</li>
    <br>
-   <img src="other/Repository-pictures/Mobaxterm/network-sessions-manager.png" alt="SSH connection">
+   <img src="Repository-pictures/Mobaxterm/network-sessions-manager.png" alt="SSH connection">
    <br> 
     <figcaption>Figure 10: SSH connection</figcaption>
   </figure>
    <li>We will need to add the IP address of the Raspberry Pi, or a device name can also be used which is here <b>raspberrypi.local</b>.  Then, we will utilize the LXDE desktop.</li>
    <br>
-   <img src="other/Repository-pictures/Mobaxterm/ssh.png" alt="connection settings">
+   <img src="Repository-pictures/Mobaxterm/ssh.png" alt="connection settings">
    <br> 
     <figcaption>Figure 11: Connection settings</figcaption>
   </figure>
    <li>Now that the settings are configured, click 'OK'. You will then be prompted to enter the username and password that were established during the setup of the Raspberry Pi operating system.</li>
 <br>
-<img src="other/Repository-pictures/Mobaxterm/mobax.png" alt="intering the passowrd and the username">
+<img src="Repository-pictures/Mobaxterm/mobax.png" alt="intering the passowrd and the username">
 <br> 
     <figcaption>Figure 12: Intering the passowrd and the username</figcaption>
   </figure>
    <li>now a successful connection to the Raspberry Pi has been established, allowing for remote usage. An LXDE desktop window will open, and all subsequent activities will be conducted within this environment.</li>
-<img src="other/Repository-pictures/Mobaxterm/DeskTop.png" alt="A successful connection has been established.">
+<img src="Repository-pictures/Mobaxterm/DeskTop.png" alt="A successful connection has been established.">
 <br> 
     <figcaption>Figure 13: A successful connection has been established.</figcaption>
   </figure>
@@ -149,14 +149,14 @@ Select the password authentication method for SSH access to your Raspberry Pi us
    <li> First, in the left corner, open the menu and select "System Tools," then click on "LXTerminal."</li>
    <br>
    <br>
-   <img src="other/Repository-pictures/Mobaxterm/termenal.png" alt="connection settings">
+   <img src="Repository-pictures/Mobaxterm/termenal.png" alt="connection settings">
    <br> 
     <figcaption>Figure 14: LXTerminal.</figcaption>
   </figure>
     <li>Using the arrow keys, press the up arrow, which will display the shutdown command (you can type it yourself or use the arrow keys to browse through available commands). Then, press the Enter key. </li>
    <br>
    
-   <img src="other/Repository-pictures/Mobaxterm/shutdown.png" alt="shutdown">
+   <img src="Repository-pictures/Mobaxterm/shutdown.png" alt="shutdown">
    <br> 
     <figcaption>Figure 15: Shutdown command</figcaption>
   </figure>
@@ -178,7 +178,7 @@ Select the password authentication method for SSH access to your Raspberry Pi us
   <br>
   <br>
   <br>
-   <img src="other/Repository-pictures/Raspberry_Pi_camera/1.png" alt="...">
+   <img src="Repository-pictures/Raspberry_Pi_camera/1.png" alt="...">
    <br> 
     <figcaption>Figure 16: Selecting the "Interfacing Options"</figcaption>
   </figure>
@@ -186,7 +186,7 @@ Select the password authentication method for SSH access to your Raspberry Pi us
    <br>
   <li> Now, select the camera option and press "Enter" to activate the camera.</li>
   <br>
-   <img src="other/Repository-pictures/Raspberry_Pi_camera/2.png" alt="...">
+   <img src="Repository-pictures/Raspberry_Pi_camera/2.png" alt="...">
    <br> 
     <figcaption>Figure 17: Activating the camera.</figcaption>
   </figure>
@@ -228,7 +228,7 @@ The Arduino port is likely to be identified as either<code>/dev/ttyACM0</code>  
 
   <li>Once you've executed the chmod command, you will have the appropriate permissions to access the Arduino port, and you can begin using the Arduino with your Raspberry Pi.</li>
   <br>
-   <img src="other/Repository-pictures/Arduino_IDE/arduino ide.png" alt="connection settings">
+   <img src="Repository-pictures/Arduino_IDE/arduino ide.png" alt="connection settings">
    <br> 
     <figcaption>Figure 18: Arduino IDE</figcaption>
   </figure>
@@ -245,7 +245,7 @@ The Arduino port is likely to be identified as either<code>/dev/ttyACM0</code>  
 <li>Once the installation to complete, open any code editor available under the programming tab. We will use Geany for our work (for Python codes).:</li>
 <br>
 
- <img src="other/Repository-pictures/OpenCV/opencv.png" alt="connection settings">
+ <img src="Repository-pictures/OpenCV/opencv.png" alt="connection settings">
  <br> 
     <figcaption>Figure 20: Programming tab.</figcaption>
   </figure>
