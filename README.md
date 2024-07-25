@@ -12,7 +12,7 @@
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
 * `video` contains two .md files with links to Youtube videos for each open challenge and obstacle challenge.
-* * `Engineering Journal` It includes a PDF file for documentation that contains a complete explanation of the solution, including descriptions of the components used, the algorithm, and more..
+* `Engineering Journal` It includes a PDF file for documentation that contains a complete explanation of the solution, including descriptions of the components used, the algorithm, and more..
 * `schemes` contains several schematic diagrams for electromechanical components used in the vehicle هn addition to the complete circuit schematic, it illustrates the components and how they connect to each other.
 * `src` This directorycontain the codes used during the competition, as well as all other necessary codes for testing sensors, motors, and calibration.
 * `models` is for the files for models used by 3D printers to produce the vehicle elements.
