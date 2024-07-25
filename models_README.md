@@ -1,1 +1,0 @@
-<b>This directory contains the STL folder, which includes the 3D designs we have printed and used in the vehicle. It also contains another folder named 'solid', which offers all designs in an editable format, provided for the public to benefit from.</b>
