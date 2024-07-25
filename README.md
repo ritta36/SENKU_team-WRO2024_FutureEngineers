@@ -56,6 +56,7 @@ This repository will explain the following:
   <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#5--sensor-upgrades">-Sensor Upgrades</a></dd>
   <dd><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#6-power-management-system-pms">-Power Management System (PMS)</a></dd>
   <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#conclusion">Conclusion</a></dt>
+  <dt><a href="https://github.com/ritta36/SENKU_team-WRO2024_FutureEngineers/blob/main/README.md#references">References</a></dt>
 </dl>
 
 
@@ -659,3 +660,37 @@ for more efficiency</p>
 <h2>Conclusion</h2>
 <p>In conclusion,the autonomous vehicle we made is designed to compete in the WRO 2024 Future Engineers Category. This car embodies a blend of theoretical and practical principles from mechanical and mathematical engineering, alongside intricate programming challenges and advanced computer vision techniques. We aim to contribute to the advancement of autonomous vehicles, recognizing their immense potential to transform global mobility and connectivity.
   and also to provid a rich informational resource that encompasses all the necessary knowledge from mechanical components to the details of software and computing needed for operation, this is intended for those who lack a source to aid them in similar endeavors.</p>
+  <h2>References</h2>
+[1] R. N. Jazar, Advanced Vehicle Dynamics. Springer, 2019, ISBN: 978-3-030-13062-6. DOI:10.1007/978-3-030-13062-6. : https://link.springer.com/book/10.1007/978-3-030-13062-6.<br>
+[2] S. International, “Motortoy car sample lesson plan,” SAE Learn Education, 2016. : https://www.sae.org/binaries/content/assets/cm/content/learn/education/motortoycar-samplelessonplan.pdf.<br>
+[3] W. H. Crouse and D. L. Anglin, Automotive Mechanics. McGraw-Hill, 2014. : http://opac-library.adamasuniversity.ac.in/cgi-bin/koha/opac-detail.plbiblionumber=14573.<br>
+[4] L. Group. (2023). “Sustainability - product safety - materials,” : https://www.lego.com/ms-my/sustainability/product-safety/materials#:~:text=ABS,as%20LEGO%20DUPLO%C2%AE%20bricks.<br>
+[5] Arduino, “Arduino mega 2560,” : https://store.arduino.cc/products/arduino-mega-2560-rev3.<br>
+[6] H. Technology, “Bts7960 motor driver,” : https://uk.farnell.com/c/sensors-transducers/sensors/ultrasonic-sensors.<br>
+[7] E. Wings, “Mpu 6050,” : https://www.electronicwings.com/sensors-modules/mpu6050-gyroscope-accelerometer-temperature-sensor-module.<br>
+[8] F. UK, “Ultrasonic sensor,” : https://uk.farnell.com/c/sensors-transducers/sensors/ultrasonic-sensors.<br>
+[9] S. A. Saleh, D. Jewett, and S. A. R. Panetta, “The analysis, modeling, and capabilities of grounding system designs,” IEEE Transactions on Industry Applications, vol. 58, no. 5, pp. 5908–5920, 2022.<br>
+[10] Besomi, “XL4005 DC-DC adjustable step-down module power supply converter,” : https://besomi.com/product/xl4005-dc-dc-adjustable-step-down-module-power-supply-converter/.<br>
+[11] Moviltronics, “Servo MG996R,” : https://moviltronics.com/tienda/servo-mg996r/.<br>
+[12] Techmaze, “Product 99187969,” : https://store.techmaze.ae/product/99187969.<br>
+[13] Banggood, “ZOP Power 11.1V 2700mAh 3S 30C Lipo Battery XT60 Plug,” : https://www.banggood.com/ZOP-Power-11_1V-2700mAh-3S-30C-Lipo-Battery-XT60-Plug-p-1116169.html.<br>
+[14] Modern Physics, “Ackermann Steering Geometry,” : https://modern-physics.org/ackermann-steering-geometry/.<br>
+[15] MIT, “Differential,” : https://web.mit.edu/2.972/www/reports/differential/differential.html.<br>
+[16] color spaces : https://pythongeeks.org/color-spaces-and-conversion-in-opencv/.<br>
+[17] object tracking : https://docs.opencv.org/3.4/df/d9d/tutorial_py_colorspaces.html.<br>
+[18] Raspberry pi 4 product brief: https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-product-brief.pd.<br>
+[19] Shutter speed : https://github.com/raspberrypi/picamera2.<br>
+[20] Raspberry camera module 3: https://www.raspberrypi.com/documentation/accessories/camera.html.<br>
+[21] JSumo 1000rpm: https://www.jsumo.com/jsumo-titan-dc-gearhead-motor-12v-1000-rpm-hp.<br>
+[22] contour detection: https://ieeexplore.ieee.org/abstract/document/5459410.<br>
+[23] contour detection: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2010/EECS-2010-17.pdf.<br>
+[24] contours in OpenCV: https://docs.opencv.org/4.x/d3/d05/tutorial_py_table_of_contents_contours.html.<br>
+[25] Arduino mega shield: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rajguruelectronics.com%2FProduct%2F1352%2FSensor%2520shield%2520for%2520Arduino%2520Mega.pdf&psig=AOvVaw1U4RU4A_ZUrjizCrHHNAXw&ust=1721493731086000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNjk6IzGs4cDFQAAAAAdAAAAABAE.<br>
+[26] Wheels: https://nl.aliexpress.com/item/4001168072686.html.<br>
+[27] IAEME Publication, Differential, https://iaeme.com/MasterAdmin/Journal_uploads/IJMET/VOLUME_8_ISSUE_5/IJMET_08_05_019.pdf.<br>
+[28] Roymech, Useful Tables: Drive Differentials, https://roymech.org/Useful_Tables/Drive/Differentials.html.<br>
+[29] SpeedingParts, Ackermann Steering, https://www.speedingparts.eu/i/guides-and-information/chassis/ackermann-steering.html.<br>
+[30] James Cole, Ackerman Steering Mechanism Design Project, https://sites.nd.edu/james-cole/ackerman-steering-mechanism-design-project/.<br>
+[31] IJSER Publication, Mathematical Model to Design Rack And Pinion Ackerman Steering Geometry, https://www.ijser.org/researchpaper/Mathematical-Model-to-Design-Rack-And-Pinion-Ackerman-Steering-Geomtery.pdf.<br>
+[32] Semantic Scholar, Ackerman Steering Geometry, https://pdfs.semanticscholar.org/8d78/832b9cfd0361379699bc34380213244d1bef.pdf.<br>
+
